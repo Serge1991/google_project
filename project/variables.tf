@@ -24,3 +24,6 @@ variable "initial_node_count" {
 variable "remove_default_node_pool" {
   type = bool
 }
+variable "deletion_protection" {
+  type = bool
+}

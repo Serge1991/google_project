@@ -18,4 +18,6 @@ resource "google_container_cluster" "primary" {
   # node pool and immediately delete it.
   remove_default_node_pool = var.remove_default_node_pool
   initial_node_count       = var.initial_node_count
+  # Disable deletion protection for the cluster
+  deletion_protection = var.deletion_protection
 }
