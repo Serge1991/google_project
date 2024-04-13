@@ -6,3 +6,4 @@ initial_node_count        = 1
 project                   = "cosmic-surface-420217" #change to yours
 remove_default_node_pool  = true
 deletion_protection       = false
+disk_size_gb              = 60
