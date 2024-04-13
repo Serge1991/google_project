@@ -27,3 +27,6 @@ variable "remove_default_node_pool" {
 variable "deletion_protection" {
   type = bool
 }
+variable "disk_size_gb" {
+  type = number
+}
