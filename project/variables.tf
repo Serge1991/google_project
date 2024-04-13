@@ -21,3 +21,6 @@ variable "location" {
 variable "initial_node_count" {
   type = number
 }
+variable "remove_default_node_pool" {
+  type = bool
+}

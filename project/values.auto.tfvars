@@ -4,3 +4,4 @@ name                      = "my-gke-cluster"
 location                  = "us-central1"
 initial_node_count        = 1
 project                   = "cosmic-surface-420217"
+remove_default_node_pool  = true
